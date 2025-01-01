@@ -1,0 +1,35 @@
+{
+  "toBeTested": {
+    "folders": [
+      {
+        "name": "folder1",
+        "specFiles": [
+          { "name": "specfile1", "testCases": [] },
+          { "name": "specfile2", "testCases": [] }
+        ]
+      },
+      {
+        "name": "folder2",
+        "specFiles": [
+          {
+            "name": "specfile3",
+            "testCases": ["testcasetitle1", "testcasetitle2"]
+          },
+          { "name": "specfile4", "testCases": [] }
+        ]
+      },
+      {
+        "name": "folder3",
+        "specFiles": []
+      }
+    ],
+    "specFiles": [
+      { "name": "specfile5", "testCases": [] },
+      {
+        "name": "specfile6",
+        "testCases": ["testcasetitle1", "testcasetitle2", "testcasetitle3"]
+      }
+    ]
+  }
+}
+
