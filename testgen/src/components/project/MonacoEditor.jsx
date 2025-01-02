@@ -91,7 +91,7 @@ export function MonacoEditor({ value, onChange, language = "javascript" }) {
         renderLineHighlight: "all",
         renderWhitespace: "selection",
       }}
-      className="border border-[#1C1C1F] rounded-md overflow-hidden"
+      className="border border-[#1C1C1F]   overflow-hidden"
     />
   )
 }

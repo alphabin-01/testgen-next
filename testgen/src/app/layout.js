@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         {/* <link rel="manifest" href="/site.webmanifest" /> */}
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
-      <body className={`${dmSans.variable} ${brygada.variable} font-dmsans antialiased bg-background`}>
+      <body className={`${dmSans.variable} ${brygada.variable} font-dmsans antialiased bg-background overflow-hidden`}>
         {children}
         <Toaster />
       </body>
